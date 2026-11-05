@@ -10,7 +10,7 @@ window.MP_I18N = {
   'zh-TW': {
     doc: {
       title: '魔琴 MagicalPiano — 把 MIDI 變成遊戲裡的琴鍵',
-      desc: '魔琴 MagicalPiano 是一款為遊戲音樂演奏而生的 MIDI 自動演奏器。內建 18 種遊戲按鍵模式、雲端曲庫、懸浮小窗、12 調號轉調、Win + Android 雙端，支援簡繁英三語。'
+      desc: '魔琴 MagicalPiano 是一款為遊戲音樂演奏而生的 MIDI 自動演奏器。內建 18 種遊戲按鍵模式、雲端曲庫、懸浮小窗、12 調號轉調、Win + Android 雙端，新用戶註冊送 30 分鐘體驗，支援簡繁英三語。'
     },
 
     'brand.name': '魔琴',
@@ -25,15 +25,15 @@ window.MP_I18N = {
     'nav.faq': '常見問題',
     'nav.cta': '下載客戶端',
 
-    'hero.badge': 'v3.1.11 已發布 · Windows 10+ / Android',
+    'hero.badge': 'v3.1.12 已發布 · Windows 10+ / Android',
     'hero.title1': '把 MIDI，',
     'hero.title2': '變成遊戲裡的琴鍵',
     'hero.sub': '魔琴 MagicalPiano 是一款為遊戲音樂演奏而生的 MIDI 自動演奏器。匯入曲譜、選好鍵位、按下播放，它就把每一個音符翻譯成遊戲裡真實的按鍵 —— 18 種遊戲按鍵模式開箱即用，雲端曲庫隨取隨彈。',
     'hero.cta1': '免費下載',
     'hero.cta2': '看看能做什麼',
-    'hero.meta1': '新用戶 10 分鐘免費試用',
+    'hero.meta1': '新用戶註冊送 30 分鐘體驗',
     'hero.meta2': '簡 / 繁 / 英 三語介面',
-    'hero.meta3': 'Windows + Android 雙端',
+    'hero.meta3': '國內 / 國外雙線路',
 
     'demo.cloud': '雲音樂',
     'demo.local': '本地音樂',
@@ -42,11 +42,23 @@ window.MP_I18N = {
     'stats.games': '遊戲按鍵模式',
     'stats.lang': '介面語言',
     'stats.speed': '最高倍速 (x)',
-    'stats.trial': '分鐘免費試用',
+    'stats.trial': '分鐘免費體驗',
 
     'features.eyebrow': '核心功能',
     'features.title': '為「彈琴」這件事，把每一處都做到順手',
     'features.desc': '從選曲、鍵位、播放到懸浮小窗，魔琴覆蓋了遊戲彈琴的完整鏈路。',
+
+    'rt.title': '國內 / 國外雙線路，依語言自動切換',
+    'rt.desc': '新增國外線路。電腦版跟隨介面語言切換線路，手機版在註冊登入時就能選，兩條線路資料互通。',
+    'rt.cn.tag': '國內線路',
+    'rt.cn.name': '簡體中文 · 低延遲',
+    'rt.cn.d': '電腦版介面語言為簡體中文時，自動使用國內線路，國內網路下延遲更低、曲庫載入更快。',
+    'rt.intl.tag': '國外線路',
+    'rt.intl.name': '繁體中文 / English',
+    'rt.intl.d': '電腦版把介面切到繁體中文或英文，即自動切換到國外線路，海外網路存取更穩定。',
+    'rt.m.tag': '手機端',
+    'rt.m.name': '註冊 / 登入時選擇',
+    'rt.m.d': '安卓版在註冊與登入介面即可選擇線路，進入 App 後還能在「個人中心」隨時更換。',
 
     'f1.t': '18 種遊戲按鍵模式',
     'f1.d': '從通用 21/22 鍵，到 36/37 鍵專業佈局，永劫無間、燕雲十六聲、逆水寒、第五人格、原神、光遇、Roblox……選一次即可，鍵位自動映射。',
@@ -123,7 +135,7 @@ window.MP_I18N = {
     'dl.s2v': '需以管理員身分執行',
     'dl.s3': '大小',
     'dl.s4': '試用',
-    'dl.s4v': '新用戶 10 分鐘免費體驗',
+    'dl.s4v': '新用戶註冊送 30 分鐘體驗',
     'dl.pick': '選擇一個雲端硬碟下載 Windows 版（內容相同，挑你順手的）：',
     'dl.xl': '迅雷雲端',
     'dl.xl.d': '提取碼 5d79',
@@ -139,7 +151,7 @@ window.MP_I18N = {
     'dl.st2': '以管理員身分執行',
     'dl.st2d': '右鍵 →「以管理員身分執行」。遊戲視窗有反作弊保護時，這一步能確保按鍵正常送達。',
     'dl.st3': '註冊 / 登入',
-    'dl.st3d': '用電子郵件註冊帳號並填邀請碼，登入後即可開始 10 分鐘試用。',
+    'dl.st3d': '用電子郵件註冊帳號並填邀請碼，註冊後自動到賬 30 分鐘體驗時長。',
     'dl.st4': '選鍵位，開彈',
     'dl.st4d': '挑一個遊戲按鍵模式 → 在雲端音樂或本地音樂裡雙擊曲目 → 切回遊戲視窗，聽它彈。',
     'dl.docs.tip': '裝好之後不知道從哪下手？先看這兩份說明：',
@@ -174,11 +186,13 @@ window.MP_I18N = {
     'q5': '想彈的歌雲曲庫裡沒有？',
     'a5': '兩種辦法：① 把曲名發給作者，我們會排期扒譜；② 關注軟體內「燕雲/永劫等練習曲解鎖」專題，裡面已經按遊戲整理好了一批曲子。',
     'q6': '免費試用期是怎麼算的？',
-    'a6': '新用戶註冊後即有 10 分鐘免費演奏時長，用來驗證鍵位和音效夠用了。用完後可透過啟動碼、邀請好友或社群福利繼續取得時長。',
+    'a6': '新用戶註冊後即贈送 30 分鐘免費演奏時長，足夠驗證鍵位、音效與線路是否順暢。用完後可透過啟動碼、邀請好友或社群福利繼續取得時長。',
     'q7': '會不會被遊戲封號？',
     'a7': '魔琴只是把 MIDI 音符轉換為標準鍵盤按鍵輸入，不讀取、不修改遊戲記憶體與網路資料。但自動演奏在部分遊戲中屬於灰色地帶，請務必先了解並遵守你所玩遊戲的規則，由此產生的帳號風險由使用者自行承擔。',
     'q8': '曲譜和軟體是持續更新的嗎？',
     'a8': '是的。軟體內建自動更新偵測，雲曲庫也會持續上新。更新日誌會在軟體內「檢查更新」中同步公布。',
+    'q9': '國內 / 國外線路怎麼切換？',
+    'a9': '電腦版跟隨介面語言：簡體中文走國內線路，切換到繁體中文或英文即自動切到國外線路，不需要手動設定。手機版在註冊和登入介面可直接選擇線路，進入 App 後也能在「個人中心」隨時更換。兩條線路帳號互通，收藏與最近播放都會同步。',
 
     'cta.title': '現在，去遊戲裡彈一首',
     'cta.desc': '下載只要一分鐘，第一次彈出旋律只要十秒鐘。',
@@ -186,7 +200,7 @@ window.MP_I18N = {
     'cta.btn2': '聯繫我們',
 
     'foot.desc': '為遊戲音樂演奏而生的 MIDI 自動演奏器。讓每一個想彈琴的人，都能在遊戲裡彈出自己喜歡的歌。',
-    'foot.ver': '目前版本 v3.1.11 · Windows 10+ / Android',
+    'foot.ver': '目前版本 v3.1.12 · Windows 10+ / Android',
     'foot.nav': '導覽',
     'foot.contact': '聯絡我們',
     'foot.wx': '微信',
@@ -198,7 +212,7 @@ window.MP_I18N = {
     'foot.download': '下載鏡像',
     'foot.docs': '使用說明',
     'foot.rights': '保留所有權利',
-    'foot.built': 'Built with care, hosted on Cloudflare Pages',
+    'foot.built': 'Built with care, hosted on GitHub Pages',
 
     'dis.title': '使用聲明',
     'dis.text': '魔琴 MagicalPiano 是一款本地 MIDI 播放與鍵盤映射工具，僅用於音樂演奏、學習與交流，不讀取或修改任何遊戲的記憶體、檔案與網路資料。請遵守各遊戲的使用者協議與相關規定，勿用於競技對局、代練獲利等違反規則的用途。因使用本工具產生的帳號風險與後果，由使用者自行承擔。',
@@ -210,7 +224,7 @@ window.MP_I18N = {
   'en': {
     doc: {
       title: 'MagicalPiano — Turn MIDI into Keys Your Game Understands',
-      desc: 'MagicalPiano is a MIDI auto-player built for in-game music performance. 18 game key layouts, a cloud sheet library, a floating mini window, 12-key transposition, Win + Android — with three interface languages.'
+      desc: 'MagicalPiano is a MIDI auto-player built for in-game music performance. 18 game key layouts, a cloud sheet library, a floating mini window, 12-key transposition, Win + Android, 30 free minutes for new sign-ups — with three interface languages.'
     },
 
     'brand.name': 'MagicalPiano',
@@ -225,15 +239,15 @@ window.MP_I18N = {
     'nav.faq': 'FAQ',
     'nav.cta': 'Get the app',
 
-    'hero.badge': 'v3.1.11 released · Windows 10+ / Android',
+    'hero.badge': 'v3.1.12 released · Windows 10+ / Android',
     'hero.title1': 'Turn MIDI',
     'hero.title2': 'into keys your game understands',
     'hero.sub': 'MagicalPiano is a MIDI auto-player built for in-game music. Load a song, pick a key layout, hit play — it translates every note into real keystrokes inside your game. 18 game layouts work out of the box, and the cloud library is always within reach.',
     'hero.cta1': 'Download free',
     'hero.cta2': 'See what it does',
-    'hero.meta1': '10-minute free trial',
+    'hero.meta1': '30 free minutes on sign-up',
     'hero.meta2': '3 interface languages',
-    'hero.meta3': 'Windows + Android',
+    'hero.meta3': 'China / Global dual routes',
 
     'demo.cloud': 'Cloud',
     'demo.local': 'Local',
@@ -242,11 +256,23 @@ window.MP_I18N = {
     'stats.games': 'Game key layouts',
     'stats.lang': 'Interface languages',
     'stats.speed': 'Max speed (x)',
-    'stats.trial': 'Min free trial',
+    'stats.trial': 'Free trial minutes',
 
     'features.eyebrow': 'Features',
     'features.title': 'Built around one thing: playing music in games',
     'features.desc': 'From picking a song to nailing the key layout, MagicalPiano covers the whole loop.',
+
+    'rt.title': 'Dual routes: China & Global, switched by language',
+    'rt.desc': 'A global route has been added. On desktop the route follows your interface language; on mobile you choose it at sign-up or login. Both routes share the same account data.',
+    'rt.cn.tag': 'China route',
+    'rt.cn.name': 'Simplified Chinese · low latency',
+    'rt.cn.d': 'With a Simplified Chinese interface, the desktop app automatically uses the China route — lower latency and faster library loading on mainland networks.',
+    'rt.intl.tag': 'Global route',
+    'rt.intl.name': 'Traditional Chinese / English',
+    'rt.intl.d': 'Switch the desktop interface to Traditional Chinese or English and it moves to the global route automatically, for a more stable connection from overseas.',
+    'rt.m.tag': 'Mobile',
+    'rt.m.name': 'Choose at sign-up / login',
+    'rt.m.d': 'On Android, pick a route right on the sign-up and login screens, then change it anytime in Profile.',
 
     'f1.t': '18 game key layouts',
     'f1.d': 'From universal 21/22-key schemes to 36/37-key pro layouts — Naraka, Where Winds Meet, Justice, Identity V, Genshin, Sky, Roblox and more. Pick once, mapping is automatic.',
@@ -323,7 +349,7 @@ window.MP_I18N = {
     'dl.s2v': 'Must run as administrator',
     'dl.s3': 'Size',
     'dl.s4': 'Trial',
-    'dl.s4v': '10 minutes free for new users',
+    'dl.s4v': '30 free minutes on sign-up',
     'dl.pick': 'Pick any mirror below for the Windows build — the file is identical:',
     'dl.xl': 'Xunlei Pan',
     'dl.xl.d': 'Code 5d79',
@@ -339,7 +365,7 @@ window.MP_I18N = {
     'dl.st2': 'Run as administrator',
     'dl.st2d': 'Right-click → Run as administrator. Games with input protection block keystrokes otherwise.',
     'dl.st3': 'Register or log in',
-    'dl.st3d': 'Sign up with your email and an invite code. Your 10-minute trial starts right after login.',
+    'dl.st3d': 'Sign up with your email and an invite code — 30 minutes are credited automatically.',
     'dl.st4': 'Pick a layout and play',
     'dl.st4d': 'Choose a game key layout → double-click a track → switch back to the game and listen.',
     'dl.docs.tip': 'Not sure where to start? Read these two guides:',
@@ -374,11 +400,13 @@ window.MP_I18N = {
     'q5': 'The song I want isn\'t in the cloud library.',
     'a5': 'Two options: ① send the author the title and we\'ll queue it; ② check the "Practice tracks" collection in the app, which is already organized by game.',
     'q6': 'How does the free trial work?',
-    'a6': 'New accounts get 10 minutes of playback right after registration — plenty to verify your layout and sound. After that, top up with an activation code, invites or community perks.',
+    'a6': 'New accounts come with 30 free minutes of playback right after sign-up — enough to check your key layout, sound and route. After that, top up with an activation code, invites or community perks.',
     'q7': 'Could this get me banned?',
     'a7': 'MagicalPiano only converts MIDI notes into ordinary keyboard input. It does not read or modify any game\'s memory, files or network traffic. That said, automated play sits in a gray area in some titles — check and follow the rules of the game you play. Any account risk is yours to take on.',
     'q8': 'Do the app and the sheet library keep getting updated?',
     'a8': 'Yes. The app checks for updates automatically and the cloud library keeps growing. Changelogs are available via Check for Updates in the app.',
+    'q9': 'How do I switch between the China and Global routes?',
+    'a9': 'On desktop the route follows the interface language: Simplified Chinese uses the China route, while Traditional Chinese or English switches to the global route automatically — no manual setting needed. On mobile you can pick a route on the sign-up and login screens and change it later in Profile. Accounts, favorites and recent plays are shared across both routes.',
 
     'cta.title': 'Go play something',
     'cta.desc': 'A minute to download. Ten seconds to your first melody.',
@@ -386,7 +414,7 @@ window.MP_I18N = {
     'cta.btn2': 'Contact us',
 
     'foot.desc': 'A MIDI auto-player made for playing music inside games — so anyone who wants to play can play the songs they love.',
-    'foot.ver': 'Current version v3.1.11 · Windows 10+ / Android',
+    'foot.ver': 'Current version v3.1.12 · Windows 10+ / Android',
     'foot.nav': 'Navigate',
     'foot.contact': 'Contact',
     'foot.wx': 'WeChat',
@@ -398,7 +426,7 @@ window.MP_I18N = {
     'foot.download': 'Download mirrors',
     'foot.docs': 'Guides',
     'foot.rights': 'All rights reserved',
-    'foot.built': 'Built with care, hosted on Cloudflare Pages',
+    'foot.built': 'Built with care, hosted on GitHub Pages',
 
     'dis.title': 'Disclaimer',
     'dis.text': 'MagicalPiano is a local MIDI playback and key-mapping utility intended for music performance, learning and sharing. It does not read or modify any game\'s memory, files or network data. Please comply with the terms of service of the games you play, and do not use it in competitive matches or for paid boosting. Any account-related consequences are the user\'s own responsibility.',
